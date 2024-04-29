@@ -5,6 +5,12 @@ nav {
     align-items: center;
     margin: 0;
     padding: 0rem 1rem;
+}
+
+body {
+    /* Stop the content of the webpag from shriking. This does not prevent the window from shrinking,
+    just the content of the webpage from shrinking anymore. */
+    min-width: 390px;
     font-family: "Inter";
 }
 
@@ -16,6 +22,45 @@ nav {
     padding-right: 0.5rem;
 }
 
+#green-nike-png {
+    margin-top: 1rem;
+    margin-bottom: .5rem;
+}
+
+
+#hero-card {
+    text-align: center;
+    width: 20rem;
+    height: 23rem;
+    margin: 1rem auto;
+    background-color: #EAEEEF;
+    border-radius: 20px;
+}
+
+#hero-percentage {
+    color: #EC5E2A;
+    font-weight: 500;
+    margin: 0rem;
+}
+
+#hero-text {
+    margin: 0rem;
+}
+
+#hero-subtext {
+    font-weight: 200;
+    margin: 1rem;
+}
+
+#hero-button {
+    margin: 2rem 2rem;
+    padding: .5rem 1rem;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #201B21;
+    color: white;
+}
+
 #company-logo {
     display: flex;
     justify-content: left;
@@ -25,6 +70,7 @@ nav {
 #company-name {
     margin-left: .75rem;
     font-size: 16px;
+    font-weight: 500;
 }
 
 #company-png {
