@@ -22,11 +22,23 @@ body {
     padding-right: 0.5rem;
 }
 
+.horizontal-shoes {
+    display: flex;
+}
+.shoes-for-sale {
+    text-align: left;
+    margin-left: 2rem;
+}
+.shoe-img {
+    background-color: #F4F4F4;
+    border-radius: 20px;
+    padding: 4rem 2rem 5rem 2rem;
+}
+
 #green-nike-png {
     margin-top: 1rem;
     margin-bottom: .5rem;
 }
-
 
 #hero-card {
     text-align: center;
@@ -35,6 +47,7 @@ body {
     margin: 1rem auto;
     background-color: #EAEEEF;
     border-radius: 20px;
+    border: 1px solid red;
 }
 
 #hero-percentage {
@@ -96,4 +109,11 @@ body {
 #cart-text {
     margin: 0px;
     font-size: 13px;
+}
+
+#subsection-title {
+    text-align: center;
+    margin: 3rem auto;
+    width: 20rem;
+    border: 1px solid red;
 }
